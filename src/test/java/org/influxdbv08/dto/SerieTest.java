@@ -1,8 +1,8 @@
-package org.influxdb.dto;
+package org.influxdbv08.dto;
 
 import java.util.Iterator;
 
-import org.influxdb.dto.Serie.Row;
+import org.influxdbv08.dto.Serie.Row;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

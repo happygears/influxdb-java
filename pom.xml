@@ -7,12 +7,12 @@
   </parent>
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.influxdb</groupId>
+	<groupId>org.influxdbv08</groupId>
 	<artifactId>influxdb-java</artifactId>
 	<packaging>jar</packaging>
 	<version>1.6-SNAPSHOT</version>
 	<name>influxdb java bindings</name>
-	<description>Java API to access the InfluxDB REST API</description>
+	<description>Java API to access the InfluxDB v0.8 REST API</description>
 	<url>http://www.influxdb.org</url>
   <licenses>
     <license>

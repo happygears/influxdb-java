@@ -1,4 +1,4 @@
-package org.influxdb.impl;
+package org.influxdbv08.impl;
 
 import com.google.common.base.Charsets;
 import com.google.common.collect.ImmutableList;

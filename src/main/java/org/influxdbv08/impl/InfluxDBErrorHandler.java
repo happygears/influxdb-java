@@ -1,4 +1,4 @@
-package org.influxdb.impl;
+package org.influxdbv08.impl;
 
 import java.io.IOException;
 import java.io.InputStreamReader;

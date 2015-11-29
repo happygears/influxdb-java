@@ -1,4 +1,4 @@
-package org.influxdb.dto;
+package org.influxdbv08.dto;
 
 import com.google.common.base.Objects;
 

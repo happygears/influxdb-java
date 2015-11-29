@@ -1,6 +1,6 @@
-package org.influxdb;
+package org.influxdbv08;
 
-import org.influxdb.impl.InfluxDBImpl;
+import org.influxdbv08.impl.InfluxDBImpl;
 import com.google.common.base.Preconditions;
 import com.google.common.base.Strings;
 

@@ -1,18 +1,18 @@
-package org.influxdb;
+package org.influxdbv08;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import org.influxdb.dto.ContinuousQuery;
-import org.influxdb.dto.Database;
-import org.influxdb.dto.DatabaseConfiguration;
-import org.influxdb.dto.Pong;
-import org.influxdb.dto.Serie;
-import org.influxdb.dto.Server;
-import org.influxdb.dto.Shard;
-import org.influxdb.dto.ShardSpace;
-import org.influxdb.dto.Shards;
-import org.influxdb.dto.User;
+import org.influxdbv08.dto.ContinuousQuery;
+import org.influxdbv08.dto.Database;
+import org.influxdbv08.dto.DatabaseConfiguration;
+import org.influxdbv08.dto.Pong;
+import org.influxdbv08.dto.Serie;
+import org.influxdbv08.dto.Server;
+import org.influxdbv08.dto.Shard;
+import org.influxdbv08.dto.ShardSpace;
+import org.influxdbv08.dto.Shards;
+import org.influxdbv08.dto.User;
 
 /**
  * Interface with all available methods to access a InfluxDB database.

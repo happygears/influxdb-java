@@ -1,18 +1,18 @@
-package org.influxdb.impl;
+package org.influxdbv08.impl;
 
 import java.util.List;
 
-import org.influxdb.dto.ContinuousQuery;
-import org.influxdb.dto.Database;
-import org.influxdb.dto.DatabaseConfiguration;
-import org.influxdb.dto.Pong;
-import org.influxdb.dto.Serie;
-import org.influxdb.dto.Server;
-import org.influxdb.dto.Shard;
-import org.influxdb.dto.Shard.Member;
-import org.influxdb.dto.ShardSpace;
-import org.influxdb.dto.Shards;
-import org.influxdb.dto.User;
+import org.influxdbv08.dto.ContinuousQuery;
+import org.influxdbv08.dto.Database;
+import org.influxdbv08.dto.DatabaseConfiguration;
+import org.influxdbv08.dto.Pong;
+import org.influxdbv08.dto.Serie;
+import org.influxdbv08.dto.Server;
+import org.influxdbv08.dto.Shard;
+import org.influxdbv08.dto.Shard.Member;
+import org.influxdbv08.dto.ShardSpace;
+import org.influxdbv08.dto.Shards;
+import org.influxdbv08.dto.User;
 
 import retrofit.client.Response;
 import retrofit.http.Body;
@@ -124,13 +124,13 @@ interface InfluxDBService {
 	@GET("/cluster/shards")
 	public Shards getShards(@Query(U) String username, @Query(P) String password);
 
-	@org.influxdb.impl.DELETE("/cluster/shards/{id}")
+	@org.influxdbv08.impl.DELETE("/cluster/shards/{id}")
 	public String dropShard(@Path(ID) int id, @Query(U) String username, @Query(P) String password, @Body Member servers);
 
 	@GET("/cluster/shard_spaces")
 	public List<ShardSpace> getShardSpaces(@Query(U) String username, @Query(P) String password);
 
-	@org.influxdb.impl.DELETE("/cluster/shard_spaces/{database}/{name}")
+	@org.influxdbv08.impl.DELETE("/cluster/shard_spaces/{database}/{name}")
 	public String dropShardSpace(@Path(DATABASE) String database, @Path(NAME) String name, @Query(U) String username,
 			@Query(P) String password);
 
