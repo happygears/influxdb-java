@@ -1,3 +1,15 @@
+
+Source
+======
+
+This repository has been forked from   [influxdb-java](https://github.com/influxdata/influxdb-java) with
+a single goal of renaming the package from `org.influxdb`  to  `org.influxdb08` because
+I needed to be able to build shaded jar with InfluxDb java client libraries for both
+InfluxDb 0.8 and 0.9 (and later). Libraries for 0.8 and 0.9 in the original project
+are very different and completely incompatible but share the same name of the package
+and many classes so they can't be used simultaneously.
+
+
 influxdb-java
 =============
 
